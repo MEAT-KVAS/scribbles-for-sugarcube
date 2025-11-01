@@ -16,7 +16,7 @@ Some things for [SugarCube](https://github.com/tmedwards/sugarcube-2) 2.37.3 mad
 ----
 <span id="anchor-simplegender"></span>
 ### simplegender
-Simplest gender template [./simplegender.js](./simplegender.js)
+Simplest gender template [./simplegender.js](./simplestgender.js)
 
 Basic usage: just type `?he`, `?him`, `?his`, `?himself` and watch as it magically transforms into a male or female version depending on the character's gender variable. Uppercasing is included.
 
