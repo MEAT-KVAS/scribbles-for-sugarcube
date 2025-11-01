@@ -24,7 +24,7 @@ Note: the `chargender` in `State.variables.chargender` is your `$chargender` in 
 
 You can have as much swappable characters as you wish, but each of them requires their own set of templates if you want them to be swappable independently of each another, just copy-paste the template block and dont forget to change variables.
 
-If you have more than one swappable char, in the next template block you should add something unique to "he", as well as another State.variable and rename this aaa-var. For example, you have swappable Player Char and Char 2, so the Player Char goes with `["he", "He"]`, `State.variables.chargender` and `var aaa`, and the Char 2 goes with `["c2he", "C2he"]`, `State.variables.char2gender` and `var bbb`, and so on, you got it.
+If you have more than one swappable char, in the next template block you should add something unique to `"he"`, as well as another `State.variable` and rename this `var aaa`. For example, you have swappable Player Char and Char 2, so the Player Char goes with `["he", "He"]`, `State.variables.chargender` and `var aaa`, and the Char 2 goes with `["c2he", "C2he"]`, `State.variables.char2gender` and `var bbb`, and so on, you got it.
 
 Tip: it works perfectly inside the link macro, if you want to use it in link titles, wrap it with `<<link "title" "passage">><</link>>` instead of `[[]]`
 
